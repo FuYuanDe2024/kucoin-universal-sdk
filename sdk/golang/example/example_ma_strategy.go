@@ -3,18 +3,19 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/api"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/account/account"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/spot/market"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/spot/order"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/types"
-	"github.com/google/uuid"
 	"log"
 	"os"
 	"os/signal"
 	"strconv"
 	"time"
+
+	"github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang/pkg/api"
+	"github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
+	"github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang/pkg/generate/account/account"
+	"github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang/pkg/generate/spot/market"
+	"github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang/pkg/generate/spot/order"
+	"github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang/pkg/types"
+	"github.com/google/uuid"
 )
 
 /**

@@ -1,9 +1,9 @@
 package api
 
 import (
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/internal/rest"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/internal/ws"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/types"
+	"github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang/internal/rest"
+	"github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang/internal/ws"
+	"github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang/pkg/types"
 )
 
 /*

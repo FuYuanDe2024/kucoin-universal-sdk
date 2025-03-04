@@ -1,5 +1,5 @@
-github.com/Kucoin/kucoin-universal-sdk/sdk/golang v1.1.0 h1:VIYkoS4W/R8td7b9Qwr5g31GGIqpqQhu38Tb1GR2mFA=
-github.com/Kucoin/kucoin-universal-sdk/sdk/golang v1.1.0/go.mod h1:YiXUgFtXVizC/pfEF119n28GYWbBj6H+AWWSMPQBJQw=
+github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang v1.1.0 h1:VIYkoS4W/R8td7b9Qwr5g31GGIqpqQhu38Tb1GR2mFA=
+github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang v1.1.0/go.mod h1:YiXUgFtXVizC/pfEF119n28GYWbBj6H+AWWSMPQBJQw=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=

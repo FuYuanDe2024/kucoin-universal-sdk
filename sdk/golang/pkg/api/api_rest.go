@@ -1,7 +1,7 @@
 package api
 
 import (
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/service"
+	"github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang/pkg/generate/service"
 )
 
 type KucoinRestService interface {

@@ -1,7 +1,7 @@
 package logger
 
 import (
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
+	"github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
 	"github.com/sirupsen/logrus"
 )
 

@@ -2,7 +2,7 @@ package futuresprivate
 
 import (
 	"encoding/json"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/types"
+	"github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang/pkg/types"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

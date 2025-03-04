@@ -3,7 +3,7 @@
 package affiliate
 
 import (
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/types"
+	"github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang/pkg/types"
 )
 
 // GetAccountResp struct for GetAccountResp

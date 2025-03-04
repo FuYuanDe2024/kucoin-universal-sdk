@@ -3,8 +3,8 @@
 package service
 
 import (
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/internal/interfaces"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/copytrading/futures"
+	"github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang/internal/interfaces"
+	"github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang/pkg/generate/copytrading/futures"
 )
 
 type CopytradingService interface {

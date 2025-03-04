@@ -2,11 +2,11 @@ package rest
 
 import (
 	"fmt"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/extension/interceptor"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/api"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/spot/spotpublic"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/types"
+	"github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang/extension/interceptor"
+	"github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang/pkg/api"
+	"github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
+	"github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang/pkg/generate/spot/spotpublic"
+	"github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang/pkg/types"
 	"github.com/stretchr/testify/assert"
 	"os"
 	"sync"

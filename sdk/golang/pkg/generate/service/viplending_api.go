@@ -3,8 +3,8 @@
 package service
 
 import (
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/internal/interfaces"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/generate/viplending/viplending"
+	"github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang/internal/interfaces"
+	"github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang/pkg/generate/viplending/viplending"
 )
 
 type ViplendingService interface {

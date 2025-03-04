@@ -3,7 +3,7 @@
 package subaccount
 
 import (
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/types"
+	"github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang/pkg/types"
 )
 
 // GetSpotSubAccountListV2Resp struct for GetSpotSubAccountListV2Resp

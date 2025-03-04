@@ -4,7 +4,7 @@ package credit
 
 import (
 	"context"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/internal/interfaces"
+	"github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang/internal/interfaces"
 )
 
 type CreditAPI interface {

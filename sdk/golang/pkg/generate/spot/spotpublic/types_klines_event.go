@@ -4,7 +4,7 @@ package spotpublic
 
 import (
 	"encoding/json"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/pkg/types"
+	"github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang/pkg/types"
 )
 
 // KlinesEvent struct for KlinesEvent

@@ -2,7 +2,7 @@ package infra
 
 import (
 	"fmt"
-	"github.com/Kucoin/kucoin-universal-sdk/sdk/golang/internal/util"
+	"github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang/internal/util"
 	"github.com/stretchr/testify/assert"
 	"sort"
 	"sync"
