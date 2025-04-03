@@ -1,7 +1,8 @@
 package main
 
 func main() {
-	RestExample()
+	//RestExample()
 
-	WsExample()
+	//WsExample()
+	KlineExample()
 }

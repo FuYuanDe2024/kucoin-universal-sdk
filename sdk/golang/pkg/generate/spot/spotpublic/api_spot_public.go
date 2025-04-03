@@ -88,7 +88,11 @@ func (impl *SpotPublicWSImpl) AllTickers(callback AllTickersEventCallback) (stri
 func (impl *SpotPublicWSImpl) Klines(symbol string, type_ string, callback KlinesEventCallback) (string, error) {
 	topicPrefix := "/market/candles"
 
-	args := []string{strings.Join([]string{symbol, type_}, "_")}
+	ss := strings.Split(symbol, ",")
+	args := []string{}
+	for _, s := range ss {
+		args = append(args, strings.Join([]string{s, type_}, "_"))
+	}
 
 	return impl.wsService.Subscribe(topicPrefix, args, &KlinesEventCallbackWrapper{callback: callback})
 }

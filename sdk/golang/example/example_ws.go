@@ -40,7 +40,7 @@ func WsExample() {
 	wsService := client.WsService()
 
 	spotWsExample(wsService.NewSpotPublicWS())
-	futuresWsExample(wsService.NewFuturesPublicWS())
+	//futuresWsExample(wsService.NewFuturesPublicWS())
 }
 
 func spotWsExample(spotPublicWs spotpublic.SpotPublicWS) {
