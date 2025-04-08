@@ -3,6 +3,7 @@ package infra
 import (
 	"context"
 	"fmt"
+
 	"github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang/internal/interfaces"
 	"github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang/internal/util"
 	"github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
@@ -98,11 +99,14 @@ func (ws *DefaultWsService) run() {
 				if msg.Type != types.Message {
 					continue
 				}
-
-				callbackManager := ws.topicManager.GetCallbackManager(msg.Topic)
-				cb := callbackManager.Get(msg.Topic)
+				topic := msg.Topic
+				//if strings.HasPrefix(msg.Topic, "/market/snapshot:") {
+				//	topic = "/market/snapshot"
+				//}
+				callbackManager := ws.topicManager.GetCallbackManager(topic)
+				cb := callbackManager.Get(topic)
 				if cb == nil {
-					logger.GetLogger().Errorf("can not find callback manager, topic: %s", msg.Topic)
+					logger.GetLogger().Errorf("can not find callback manager, topic: %s", topic)
 					continue
 				}
 

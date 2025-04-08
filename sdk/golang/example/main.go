@@ -4,5 +4,6 @@ func main() {
 	//RestExample()
 
 	//WsExample()
-	KlineExample()
+	//KlineExample()
+	SnapshotExample()
 }

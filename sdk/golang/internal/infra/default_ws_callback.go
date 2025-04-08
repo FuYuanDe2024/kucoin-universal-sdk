@@ -1,11 +1,12 @@
 package infra
 
 import (
+	"strings"
+	"sync"
+
 	"github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang/internal/interfaces"
 	"github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang/internal/util"
 	"github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang/pkg/common/logger"
-	"strings"
-	"sync"
 )
 
 type Callback struct {
@@ -91,7 +92,7 @@ func (s *CallbackManager) Add(subInfo *util.SubInfo) (created bool) {
 	}
 
 	s.idTopicMapping[id] = topicMap
-	logger.GetLogger().Tracef("id:[%s], topicMap:[%v]", id, topicMap)
+	logger.GetLogger().Debugf("id:[%s], topicMap:[%v]", id, topicMap)
 	return true
 }
 

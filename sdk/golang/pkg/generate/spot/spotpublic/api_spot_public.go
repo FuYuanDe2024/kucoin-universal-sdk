@@ -44,10 +44,12 @@ type SpotPublicWS interface {
 	// push frequency: once every 100ms
 	OrderbookLevel5(symbol []string, callback OrderbookLevel5EventCallback) (id string, err error)
 
+	
 	// SymbolSnapshot Symbol Snapshot
 	// Subscribe to get snapshot data for a single symbol.
 	// push frequency: once every 2s
 	SymbolSnapshot(symbol string, callback SymbolSnapshotEventCallback) (id string, err error)
+	//SymbolsSnapshot(symbols []string, callback SymbolSnapshotEventCallback) (id string, err error)
 
 	// Ticker Get Ticker
 	// Subscribe to this topic to get the specified symbol push of BBO changes.
@@ -140,7 +142,13 @@ func (impl *SpotPublicWSImpl) OrderbookLevel5(symbol []string, callback Orderboo
 func (impl *SpotPublicWSImpl) SymbolSnapshot(symbol string, callback SymbolSnapshotEventCallback) (string, error) {
 	topicPrefix := "/market/snapshot"
 
-	args := []string{symbol}
+	var args []string
+
+	if strings.Contains(symbol, ",") {
+		args = strings.Split(symbol, ",")
+	} else {
+		args = []string{symbol}
+	}
 
 	return impl.wsService.Subscribe(topicPrefix, args, &SymbolSnapshotEventCallbackWrapper{callback: callback})
 }

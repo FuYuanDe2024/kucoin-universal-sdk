@@ -2,9 +2,10 @@ package util
 
 import (
 	"fmt"
-	"github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang/internal/interfaces"
 	"sort"
 	"strings"
+
+	"github.com/FuYuanDe2024/kucoin-universal-sdk/sdk/golang/internal/interfaces"
 )
 
 const EMPTY_ARGS_STR = "EMPTY_ARGS"
@@ -21,6 +22,7 @@ func (info *SubInfo) ToId() string {
 	if len(info.Args) > 0 {
 		argsStr = strings.Join(info.Args, ",")
 	}
+
 	return fmt.Sprintf("%s@@%s", info.Prefix, argsStr)
 }
 
